@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/main_color"
+    app:cardCornerRadius="@dimen/_2sdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/main_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/ic_wifi_off"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="OOPS!"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_30ssp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="No Internet Connection"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            />
+        <TextView
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="Please check your connection"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            />
+
+        <Button
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:text="Retry"
+            android:textSize="@dimen/_16ssp"
+            android:backgroundTint="@color/drawer_header_color"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:id="@+id/btn_retry"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Master Downloader</string>
+
+
+    <string name="error_no_yt_link">Please enter valid Youtube Link</string>
+    <string name="youtube">Youtube</string>
+    <string name="feedback">Feedback</string>
+    <string name="about_us">About Us</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+    <string name="Downloader">Downloader</string>
+    <string name="webView">https://www.instagram.com/</string>
+    <string name="rate_request">If our app worths using. Would you please rate us on Playstore. Please Give us your valuable feedback. This will help us to improve our App</string>
+
+
+    <string name="aboutUS">About Us</string>
+    <string name="developer">Moazam Saleem</string>
+    <string name="gmail">brainsmedia.1@gmail.com</string>
+    <string name="share">Share</string>
+    <string name="RateUs">Rate Us:</string>
+    <string name="brains_media">Brains Media</string>
+    <string name="owner">Owner:</string>
+    <string name="moazam_saleem">Moazam Saleem</string>
+    <string name="developed_by">Developed By:</string>
+    <string name="g_mail">Gmail</string>
+    <string name="reach_us">Reach Us:</string>
+    <string name="address">Address:</string>
+    <string name="Address_office">Khan Tower Shahdara</string>
+    <string name="nature">Nature</string>
+    <string name="artistic">Artistic</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="welcome_to_your_dashboard">Welcome to your Dashboard.</string>
+
+
+    <!-- Toktok Downloader Strings-->
+
+    <string name="appbar_scrolling_view_behavior" translatable="true">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="str_developed_with_love">Developed with ❤ in <b>Pakistan</b></string>
+
+    <string name="channel_name">Channel</string>
+    <string name="channel_description">channel_description</string>
+    <string name="info_permission_denied">Sorry permission denied.We can not open this app on your device, please try again later.</string>
+    <string name="format_request_permision">%1$s will need to have read/write permission your sdcard to save Files.Do you want to grant it?</string>
+
+
+    <string name="AdmobappId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="AdmobBanner">ca-app-pub-3940256099942544/6300978xxx</string>
+    <string name="AdmobInterstitial">ca-app-pub-3940256099942544/1033173xxx</string>
+
+
+    <string name="SharingVideoSubject">Sharing Downloaded Video</string>
+    <string name="SharingVideoTitle">Sharing Video</string>
+    <string name="SharingVideoBody">Sharing Video File</string>
+
+    <string name="RateAppTitle">Like this app?</string>
+    <string name="RateApp">Share the love by rating 5 stars in Play Store. 😘</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+
+
+</resources>

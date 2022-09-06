@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/custom_et_insta.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/custom_et_tiktok.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_download.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_exit.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_feedback.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_idea.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/ic_wifi_off.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/drawable/tips_bg_tiktok.xml" value="0.1" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/activity_links.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/activity_splash.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/check_internet.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/custom_toolbar.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/fragment_about_us.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/layout_rating.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/layout/nav_header_yt.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/Moazam/Desktop/MasterDownloader/app/src/main/res/menu/menu.xml" value="0.17685185185185184" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

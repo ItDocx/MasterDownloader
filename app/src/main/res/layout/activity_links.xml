@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:openDrawer="start"
+        android:id="@+id/web_drawer"
+        tools:context=".Web.Links">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Web.Links">
+
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:id="@+id/web_toolbar"/>
+
+    <WebView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/web_toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/webView"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:headerLayout="@layout/nav_header_yt"
+            app:menu="@menu/menu"
+            android:layout_gravity="start"
+            android:id="@+id/nav_web"
+            android:fitsSystemWindows="true"
+            app:itemIconTint="@color/main_color"
+            app:itemRippleColor="@color/main_color"
+            />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

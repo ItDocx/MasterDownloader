@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:iconTint="@color/main_color"
+        />
+    <item android:id="@+id/menu_fb"
+        android:icon="@drawable/ic_fb_menu"
+        android:title="Facebook"
+        android:iconTint="@color/main_color"
+        tools:targetApi="o" />
+    <item android:id="@+id/menu_tiktok"
+        android:icon="@drawable/tik_tok"
+        android:title="TikTok"
+        android:iconTint="@color/main_color"
+        tools:targetApi="o" />
+
+    <item android:id="@+id/menu_insta"
+        android:icon="@drawable/ic_insta"
+        android:title="Instagram"
+        android:iconTint="@color/main_color"
+        tools:targetApi="o" />
+
+    <item android:id="@+id/menu_feedback"
+        android:icon="@drawable/ic_feedback"
+        android:iconTint="@color/main_color"
+        android:title="@string/feedback"/>
+    <item android:id="@+id/menu_about_us"
+        android:iconTint="@color/main_color"
+        android:icon="@drawable/ic_about_us"
+        android:title="@string/about_us"/>
+    <item android:id="@+id/menu_exit"
+        android:iconTint="@color/main_color"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit"/>
+</menu>

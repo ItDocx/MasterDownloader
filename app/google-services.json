@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "317012300681",
+    "project_id": "master-downloader-648f1",
+    "storage_bucket": "master-downloader-648f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317012300681:android:78d74eb36efd096ed10758",
+        "android_client_info": {
+          "package_name": "com.brainmedia.masterdownloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317012300681-php84715l3jnjc84pirq5k6pmmefnu5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcUUmeja4SRDJFWJLDjHfrqt_YOayinKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317012300681-php84715l3jnjc84pirq5k6pmmefnu5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

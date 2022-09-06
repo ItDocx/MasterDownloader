@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.drawerlayout.widget.DrawerLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_tiles"
+        android:orientation="vertical">
+        <include
+            layout="@layout/custom_toolbar"
+            android:id="@+id/main_Toolbar"/>
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/mainScroll"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_Toolbar"
+            app:layout_constraintBottom_toTopOf="@id/bottombannerContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bannerContainer"/>
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/layoutBannerTiktok"
+                    android:id="@+id/llTips"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tips_background_yt"
+                    android:padding="10.0dip"
+                    android:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginStart="3.0dip"
+                        android:padding="16.0dip"
+                        android:src="@drawable/ic_idea" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="How to download videos?"
+                            android:textColor="@color/white"
+                            android:textSize="15.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5.0dip"
+                            android:text="•   Open one of the Supported App and tap on share button of the video and copy the link (or)"
+                            android:textColor="@color/white"
+                            android:textSize="13.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5.0dip"
+                            android:text="•   Simply copy the link of video and paste in the text input Field"
+                            android:textColor="@color/white"
+                            android:textSize="13.0sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5.0dip"
+                            android:text="•   Tap on the Download button and your download will begin shortly."
+                            android:textColor="@color/white"
+                            android:textSize="13.0sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--        <com.google.android.ads.nativetemplates.TemplateView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10sdp"
+                            app:gnt_template_type="@layout/gnt_medium_template_view"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/bannerContainer"
+                            android:id="@+id/nativeAdContainer"/>
+
+                                                            -->
+                <LinearLayout
+                    android:layout_marginVertical="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/custome_et_yt"
+                        android:padding="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:hint="Paste the Video Url here"
+                        android:layout_margin="10dp"
+                        android:textColorHint="@color/drawer_header_color"
+                        android:id="@+id/et_url"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="Download"
+                        android:layout_marginHorizontal="30dp"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:id="@+id/btn_download"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Currently Supports: "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"
+                    />
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardUseCompatPadding="true"
+                            app:cardCornerRadius="@dimen/_10sdp"
+                            android:layout_marginHorizontal="@dimen/_10sdp">
+
+                            <RelativeLayout
+                                android:background="@drawable/custome_et_yt"
+                                android:padding="@dimen/_10sdp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:id="@+id/fb_ic_web"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:src="@drawable/ic_facebook"/>
+
+                            <TextView
+                                android:layout_marginHorizontal="@dimen/_7sdp"
+                                android:layout_below="@id/fb_ic_web"
+                                android:id="@+id/fb_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Facebook"
+                                android:textSize="@dimen/_14ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                />
+
+                                <ImageView
+                                    android:id="@+id/insta_ic_web"
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="@dimen/_50sdp"
+                                    android:layout_centerHorizontal="true"
+                                    android:padding="@dimen/_5sdp"
+                                    android:src="@drawable/instagram" />
+
+                                <TextView
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/insta_ic_web"
+                                    android:id="@+id/insta_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Instagram"
+                                    android:textSize="@dimen/_14ssp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    />
+
+                                <ImageView
+                                    android:id="@+id/tiktok_ic_web"
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="@dimen/_50sdp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginHorizontal="@dimen/_10sdp"
+                                    android:padding="@dimen/_5sdp"
+                                    android:src="@drawable/tik_tok" />
+
+                                <TextView
+                                    android:layout_marginHorizontal="@dimen/_15sdp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_below="@id/insta_ic_web"
+                                    android:id="@+id/tiktok_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="TikTok"
+                                    android:textSize="@dimen/_14ssp"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"
+                                    />
+
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <RelativeLayout
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mainScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bottombannerContainer"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+  <com.google.android.material.navigation.NavigationView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          app:headerLayout="@layout/nav_header_yt"
+          app:menu="@menu/menu"
+          android:layout_gravity="start"
+          android:id="@+id/nav_main"
+          android:fitsSystemWindows="true"
+          app:itemIconTint="@color/main_color"
+          app:itemRippleColor="@color/main_color"
+          />
+
+</androidx.drawerlayout.widget.DrawerLayout>
+</layout>
